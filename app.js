@@ -37,3 +37,21 @@ switch (traficlight) {
 
   default: console.log("okänd signal")  
 }
+
+
+const weather= "regn"
+switch (weather){
+    case "regn":
+        console.log("ta med paraply")
+        break
+
+        case "sol":
+            console.log("glöm inte solglasögon")
+            break
+            
+            case"snö":
+            console.log("ta på dig varm jacka")
+            break
+            default: console.log("kolla vädret")
+}
+ 
